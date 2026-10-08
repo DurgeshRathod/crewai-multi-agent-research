@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "crew-ai-conversational-bot"
+version = "0.1.0"
+description = "A minimal CrewAI hierarchy multi-agent project"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<=3.13"
+crewai = "^0.165.1"
+crewai-tools = "^0.62.3"
+langchain-ollama = "^0.3.6"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+duckduckgo-search = "^8.1.1"
+newspaper3k = "^0.2.8"
+feedparser = "^6.0.10"
+lxml-html-clean = "^0.4.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
